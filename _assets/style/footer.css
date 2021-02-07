@@ -1,0 +1,94 @@
+footer {
+    background-color: black;
+    color: white;
+    margin-bottom: -16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.f-1 {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+
+
+#codeur-barre {
+    padding-top: 0px;
+}
+
+.ligne_seperation {
+    color: white;
+}
+
+.reseaux-sociaux {
+    border-top: 1px solid white;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    transition: width 1.5 ease-in-out;
+}
+
+.follow {
+    margin-right: 10px;
+}
+
+.follow:hover {
+    transform: scale(1.2);
+}
+
+.follow1:hover {
+    color: #f542da;
+}
+
+.follow2:hover {
+    color: #f51d28;
+}
+
+.follow3:hover {
+    color: #4594f5;
+}
+
+.follow4:hover {
+    color: #0554b5;
+}
+.apple, .google{
+    max-width: 100%;
+    margin-top: 30px;
+}
+#newsletter h4{
+    padding-top: 80px;
+}
+
+.telechargez h4{
+    padding-top: 50px;
+}
+
+.logo h4 span {
+    
+    color: #3cb6c9;
+    font-family: 'fontastiquefontastique';
+    font-size: 40px;
+}
+
+
+.logo h4  {
+    color: white;
+    font-size: 30px;
+}    
+    
+
+
