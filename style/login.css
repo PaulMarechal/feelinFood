@@ -1,0 +1,45 @@
+
+.signup_identifiant{
+    text-align:center;
+    margin:50px 0;
+    
+}
+#name, #pass, .signup_motdepasse{
+    padding: 8px 25px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 4px;
+    outline:none;
+}
+.signup_motdepasse{
+    margin-top:40px;
+    color:white;
+    background-color: #3cb6c9;
+  
+}
+.mb-2{
+
+    padding-bottom: 10PX;
+}
+
+#signup{
+    display: block;
+    align-items: center;
+    height:350px;
+    width:400px;
+    border: 1px;
+    border-style: solid;
+    border-color: lightgray; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+label
+{
+   display:block;
+    width:250px;
+    float:left;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
+

@@ -1,0 +1,190 @@
+
+.infoPanel li{
+    width: 90%;
+   
+}
+.editAvatar a{
+    position:absolute;
+    top:3%;
+    right:5%;
+    color:black;
+}
+.panel-card{
+    position:relative;
+}
+
+.infoPanel li img {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    
+}
+
+.infoPanel{
+    margin-left:-27px;
+}
+.pointLabel{
+    text-align:center;
+    line-height:15px;
+}
+.pointsN{
+    font-size:28px;
+    font-weight:bold;
+    color:grey;
+    font-style:italic;
+}
+.points{
+    color:grey;
+    font-style:italic;
+}
+.award{
+    color:grey;
+}
+
+.buttonList {
+    padding-left: 25%;
+    color: grey;
+}
+
+.buttonList:hover {
+    color: white;
+    background-color: #3cb6c9;
+}
+
+.listOrder{
+    text-decoration:none;
+    color:black;
+}
+.orderz{
+    font-size:18px;
+    text-decoration:none;
+    color:black;
+    padding:10px;
+}
+.legends{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    padding:0 4%;
+}
+.ord{
+    width:100px;
+    padding-top: 3%;
+}
+.backOrder{
+    display:block;
+    margin-left:30px;
+}
+.containerOrder{
+    width:500px;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+.button-like {
+    background: transparent;
+    border: none;
+}
+ 
+   
+.button-like:hover, .button-like:focus {
+    outline: none;
+}
+     
+
+     /*wishlist*/
+  
+    .preview {
+        position: absolute;
+		display: block;
+		width: 200px;
+		height: 200px;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        padding: auto;
+		box-shadow: 0px 0px 0px 2px #3cb6c9;
+		border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #3cb6c9;
+      }
+
+
+      .editImg:hover .overlay {
+        opacity: 1;
+        
+      } 
+
+      .text-p {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+
+.file-upload-wrapper {
+		position: relative;
+        display: block;
+		width: 200px;
+		height: 200px;
+        border-radius: 50%;
+        margin-left: 12%;
+        margin-bottom: 10%;
+}
+
+.file-upload-native{
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+        color: #3cb6c9;
+       
+}
+
+#myButton {
+    margin-left: 99%;
+    display: none;
+   
+    
+}
+
+.editImg:active .wesh {
+    display: flex;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+		cursor: pointer;
+}
+
+.file-upload-native:focus{
+		outline: none;
+}
+
+.file-upload-native {
+		z-index: 15;
+		opacity: 0;
+}
+  
+#btnOrder{
+    background-color:#3cb6c9;
+}
+ 
+
+
